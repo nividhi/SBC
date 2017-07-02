@@ -24,11 +24,20 @@
     @RenderSection("styles", false)
 </head>
 <body>
-    <div class="container">
-        <div class="row">
-            @RenderBody()
+    <div id="wrapper">
+        <!-- Navigation -->
+        @Html.Partial("_NavigationPage")
+        <!-- Page Content -->
+        <div id="page-wrapper">
+            <div class="container-fluid">
+                @RenderBody()
+                <!-- /.row -->
+            </div>
+            <!-- /.container-fluid -->
         </div>
+        <!-- /#page-wrapper -->
     </div>
+    <!-- /#wrapper -->
     <!-- jQuery -->
     <script src="@Url.Content("~/Scripts/jquery-1.10.2.min.js")"></script>
     <!-- Bootstrap Core JavaScript -->
