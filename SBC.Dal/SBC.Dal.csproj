@@ -41,6 +41,21 @@
   <ItemGroup>
     <Compile Include="Properties\AssemblyInfo.cs" />
   </ItemGroup>
+  <ItemGroup>
+    <ProjectReference Include="..\SBC.Data\SBC.Data.csproj">
+      <Project>{4f99782c-9603-41f2-add1-9e9d2c54fcc8}</Project>
+      <Name>SBC.Data</Name>
+    </ProjectReference>
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="App.config" />
+  </ItemGroup>
+  <ItemGroup>
+    <Folder Include="Generic Repository\" />
+    <Folder Include="OM\" />
+    <Folder Include="Repositories\" />
+    <Folder Include="Unit Of Work\" />
+  </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
   <!-- To modify your build process, add your task inside one of the targets below and uncomment it. 
        Other similar extension points exist, see Microsoft.Common.targets.
