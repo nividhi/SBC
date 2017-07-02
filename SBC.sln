@@ -23,7 +23,7 @@ Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Database", "Database", "{F4
 EndProject
 Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Build V 1.0", "Build V 1.0", "{478BE7D2-D2D8-418F-96F6-20E2CEC2D977}"
 	ProjectSection(SolutionItems) = preProject
-		C:\Users\Nisarg\Desktop\V 1.0.sql = C:\Users\Nisarg\Desktop\V 1.0.sql
+		Builds\Scripts\V 1.0.sql = Builds\Scripts\V 1.0.sql
 	EndProjectSection
 EndProject
 Global
