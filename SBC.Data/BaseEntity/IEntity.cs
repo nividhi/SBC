@@ -7,11 +7,19 @@ using System.Threading.Tasks;
 
 namespace SBC.Data.BaseEntity
 {
-    public class IEntity
+    public abstract class IEntity
     {
         [Key]
         public int RecordID { get; set; }
         [Required]
         public Guid RawID { get; set; }
+        [Required]
+        public bool IsActive { get; set; }
+        [Required]
+        public Guid CreatedBy { get; set; }
+        [Required]
+        public DateTime CreatedDate { get; set; }
+        public Guid ModifiedBy { get; set; }
+        public DateTime ModifiedDate { get; set; }
     }
 }

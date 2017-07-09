@@ -16,6 +16,23 @@ namespace SBC.Data.Context
         }
 
         public DbSet<Entity.Type> Types { get; set; }
+        public DbSet<Entity.Purity> Purities { get; set; }
+
+        public DbSet<Entity.Product> Products { get; set; }
+
+        public DbSet<Entity.Item> Items { get; set; }
+
+        public DbSet<Entity.Country> Countries { get; set; }
+
+        public DbSet<Entity.State> States { get; set; }
+
+        public DbSet<Entity.City> Cities { get; set; }
+
+        public DbSet<Entity.AccountType> AccountTypes { get; set; }
+
+        public DbSet<Entity.Account> Accounts { get; set; }
+
+
 
     }
 }

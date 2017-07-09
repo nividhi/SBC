@@ -54,10 +54,22 @@
   <ItemGroup>
     <Compile Include="BaseEntity\IEntity.cs" />
     <Compile Include="Context\SBCContext.cs" />
+    <Compile Include="Entities\Account.cs" />
+    <Compile Include="Entities\AccountType.cs" />
+    <Compile Include="Entities\City.cs" />
+    <Compile Include="Entities\Country.cs" />
+    <Compile Include="Entities\Item.cs" />
+    <Compile Include="Entities\Product.cs" />
+    <Compile Include="Entities\Purity.cs" />
+    <Compile Include="Entities\State.cs" />
     <Compile Include="Entities\Type.cs" />
     <Compile Include="Migrations\201707021120440_Type.cs" />
     <Compile Include="Migrations\201707021120440_Type.Designer.cs">
       <DependentUpon>201707021120440_Type.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Migrations\201707081748565_InitailChange.cs" />
+    <Compile Include="Migrations\201707081748565_InitailChange.Designer.cs">
+      <DependentUpon>201707081748565_InitailChange.cs</DependentUpon>
     </Compile>
     <Compile Include="Migrations\Configuration.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
@@ -65,6 +77,9 @@
   <ItemGroup>
     <EmbeddedResource Include="Migrations\201707021120440_Type.resx">
       <DependentUpon>201707021120440_Type.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Migrations\201707081748565_InitailChange.resx">
+      <DependentUpon>201707081748565_InitailChange.cs</DependentUpon>
     </EmbeddedResource>
   </ItemGroup>
   <ItemGroup>

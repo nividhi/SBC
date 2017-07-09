@@ -26,6 +26,10 @@ Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Build V 1.0", "Build V 1.0"
 		Builds\Scripts\V 1.0.sql = Builds\Scripts\V 1.0.sql
 	EndProjectSection
 EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Framework", "Framework", "{FB3CC002-3DD8-4C78-9774-8614F40FAC85}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "SBC.Framework.Utility", "SBC.Framework.Utility\SBC.Framework.Utility.csproj", "{C5491BDC-223F-4DF4-856D-B405A85A5F26}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -52,6 +56,10 @@ Global
 		{B63FF505-0F3F-4589-8972-215DAFC61228}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{B63FF505-0F3F-4589-8972-215DAFC61228}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{B63FF505-0F3F-4589-8972-215DAFC61228}.Release|Any CPU.Build.0 = Release|Any CPU
+		{C5491BDC-223F-4DF4-856D-B405A85A5F26}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{C5491BDC-223F-4DF4-856D-B405A85A5F26}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{C5491BDC-223F-4DF4-856D-B405A85A5F26}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{C5491BDC-223F-4DF4-856D-B405A85A5F26}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
@@ -63,5 +71,6 @@ Global
 		{3DCEFA70-FE5C-44B2-A61A-964AC7F1D124} = {55C971E3-31E7-4473-9BBE-88C640E9EAE4}
 		{B63FF505-0F3F-4589-8972-215DAFC61228} = {91B7B960-8C5E-4765-9C71-76569E51146A}
 		{478BE7D2-D2D8-418F-96F6-20E2CEC2D977} = {F4E07B4E-BEBF-4EEC-A25B-B1D22784517E}
+		{C5491BDC-223F-4DF4-856D-B405A85A5F26} = {FB3CC002-3DD8-4C78-9774-8614F40FAC85}
 	EndGlobalSection
 EndGlobal
